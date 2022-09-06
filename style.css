@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color:#E5E5E5;
+   font-family: 'Roboto','Courier New';
+   margin-top: 30px;
+   margin-bottom: 100px;
+}
+.card-1{
+width: 505px;
+height: 288px;
+background-color: #FCEBEB;
+margin: 100px  auto 60px auto;
+position: relative;
+}
+.top-section {
+    display: flex;
+    justify-content: space-between;
+}
+.logo-section{
+   position: relative;
+} 
+
+.logo1 {
+    /* padding-left: 43px; */
+    margin: 45px 0px 0px 40px;
+
+}
+.logo-text{
+    margin: 18px 0 25px 9px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    
+   
+    
+}
+.cash-card {
+    margin: 35px 41px 46px 0;
+    font-size: 18px;
+    color: #FF4848;
+    font-weight: 500;
+}
+.naira{
+    margin: 50px 60px 0px 20px;
+    font-size: 48px;
+    color: #FF4848;
+    font-weight: 700;
+}
+.profile{
+    margin: 72px 19px 0px 45px;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: 40;
+    bottom: 0;
+    margin-bottom: 45px;
+}
+.profile-icon{
+    margin-right: 5px;
+}
+.btn{
+    background-color: #FF1515;
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+.card-2{
+    width: 505px;
+    height: 288px;
+    background-color: #FFFFFF;
+    margin: 0px auto;
+    border: 1px solid;
+    border: none;
+    outline: none;
+    }
+    .blue-image{
+        background-image: url(../img/blue-rectangle.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 382px;
+        height: 59px;
+        margin: 14px  0px 0px 29px;
+       
+    }
+    .top-section2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo2{
+        width: 55px;
+        height: 50px;
+        margin: 25px 18px 18px 18px;
+    }
+    input{
+        padding: 10px;
+        margin-top: 12px;
+        width: 65%;
+        border: none;
+        outline: none;
+        
+    }
+    .pin{
+        color: #FFFFFF;
+        margin: 10px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .text-section2 {
+      text-align: center;
+
+    }
+    .instruction{
+        font-size: 18px;
+        font-weight: 300;
+    
+       
+    }
+    .instruction-line{
+        width: 162px;
+        margin-left:  auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        color: #AAA6A6;
+    
+    }
+    .dial{
+        font-size: 18px;
+        font-weight: 400;  
+    }
+    strong{
+        font-weight: 700;  
+    }
+    .token{
+        font-size: 18px;
+        font-weight: 300; 
+        margin-top: 6px;
+    }
+    .token-pin{
+        font-size: 18px;
+        font-weight: 700;  
+    }
+    .amount{
+        font-size: 36px;
+        font-weight: 500; 
+        margin-top: 6px;
+    }
+    .bottom-section2{
+     display: flex;
+     justify-content: space-between;
+    }
+    .pieces-batch{
+        margin-left: 29px;  
+    }
+    .back-code {
+        margin-top: 16px;
+    }
+    hr{
+        color: #AAA6A6;
+    }
